@@ -1,0 +1,467 @@
+body{
+margin:0;
+background-image: url("stars2.jpg");
+}
+.p1
+{
+	color:yellow;
+	font-size:30px;
+	float:right;
+}
+
+#heading
+{
+	color:white;
+	text-align:center;
+	font-size:46px;
+	box-shadow:2px 2px 10px  grey;
+	
+}
+
+.nav
+{
+ 
+    list-style:none;
+    margin-top:-60px;
+    padding:0;
+	text-align:center;
+	
+}
+.nav li{
+    display:inline;
+}
+.nav h2{
+    display:inline-block;
+    padding:15px;
+	color:white;
+	font-size:18px;
+
+}
+
+ul.nav h2 {
+    cursor: pointer;
+    color: #386077;
+	
+	/*
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    -o-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+    font-size: 20px;
+    position: relative;
+    z-index: 101;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+	margin-bottom: -15px;*/
+}
+ul.nav h2:hover {
+   color: #aa4200; 
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.08);
+}
+ul.nav li p {
+    position: absolute;
+    left: 500px;
+    top: 100;
+    width: 200px;
+    display: inline;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+	border-radius: 5px;
+	background: #0f132c;
+    padding: 30px;
+    color: #767892;
+    line-height: 1.7;
+    z-index: 100;
+    border: 1px solid #1c203c;
+}
+ul.nav h2:hover+p {
+    visibility: visible;
+    opacity: 0.9;
+    left: 500px;
+}
+
+
+#circle {
+	margin:auto;
+   border-radius:50%;
+	width:600px;
+	height:600px;
+	position: relative;
+	
+	
+}
+
+#circle1 {
+
+top: 5%; left:5%; 
+width:90%; 
+height:90%; 
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 95s linear infinite;
+-moz-animation:spin-right 95s linear infinite;
+-ms-animation: spin-right 95s linear infinite;
+-o-animation:spin-right 95s linear infinite;
+animation:spin-right 95s linear infinite;
+}
+
+
+#circle2 {
+	top: 10%; left:10%; /* of the container */
+width:80%; /* of the container */
+height:80%; /* of the container */
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 70s linear infinite;
+-moz-animation:spin-right 70s linear infinite;
+-ms-animation: spin-right 70s linear infinite;
+-o-animation:spin-right 70s linear infinite;
+animation:spin-right 70s linear infinite;
+
+	
+}
+
+#circle3 {
+	top: 15%; left:15%; /* of the container */
+width:70%; /* of the container */
+height:70%; /* of the container */
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 50s linear infinite;
+-moz-animation:spin-right 50s linear infinite;
+-ms-animation: spin-right 50s linear infinite;
+-o-animation:spin-right 50s linear infinite;
+animation:spin-right 50s linear infinite;
+
+}
+#circle4 {
+	top: 20%; left:20%; /* of the container */
+width:60%; /* of the container */
+height:60%; /* of the container */
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 20s linear infinite;
+-moz-animation:spin-right 20s linear infinite;
+-ms-animation: spin-right 20s linear infinite;
+-o-animation:spin-right 20s linear infinite;
+animation:spin-right 20s linear infinite;
+
+
+}
+#circle5 {
+	top: 25%; left:25%; /* of the container */
+width:50%; /* of the container */
+height:50%; /* of the container */
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 30s linear infinite;
+-moz-animation:spin-right 30s linear infinite;
+-ms-animation: spin-right 30s linear infinite;
+-o-animation:spin-right 30s linear infinite;
+animation:spin-right 30s linear infinite;
+}
+
+#circle6 {
+	top: 30%; left:30%; /* of the container */
+width:40%; /* of the container */
+height:40%; /* of the container */
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 10s linear infinite;
+-moz-animation:spin-right 10s linear infinite;
+-ms-animation: spin-right 10s linear infinite;
+-o-animation:spin-right 10s linear infinite;
+animation:spin-right 10s linear infinite;
+
+}
+#circle7 {
+	top: 35%; left:35%; /* of the container */
+width:30%; /* of the container */
+height:30%; /* of the container */
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 8s linear infinite;
+-moz-animation:spin-right 8s linear infinite;
+-ms-animation: spin-right 8s linear infinite;
+-o-animation:spin-right 8s linear infinite;
+animation:spin-right 8s linear infinite;
+
+}
+#circle8 {
+	top: 40%; left:40%; /* of the container */
+width:20%; /* of the container */
+height:20%; /* of the container */
+position: absolute;
+border:1px solid white;
+border-radius: 50%;
+-webkit-animation:spin-right 5s linear infinite;
+-moz-animation:spin-right 5s linear infinite;
+-ms-animation: spin-right 5s linear infinite;
+-o-animation:spin-right 5s linear infinite;
+animation:spin-right 5s linear infinite;
+
+}
+
+
+
+
+
+li.asteroids_meteorids {
+    top: 135px;
+    left: 138px;
+   z-index:-1;
+    background: url(http://neography.com/experiment/circles/solarsystem/asteroids_meteorids.png) no-repeat 0 0;
+    width: 320px;
+    height: 330px;
+	position:absolute;
+    
+}
+
+
+/*planet fig*/
+.sun
+{
+top: 46%; left:46%; /* of the container */
+width:8%; /* of the container */
+height:8%; /* of the container */
+position: absolute;
+transform: rotateX(360deg);
+background:linear-gradient(to top left,red,yellow) ;
+border-radius: 50%;
+border-color:orange;
+box-shadow:2px 2px 10px 1px red;
+cursor:pointer;
+}
+
+.namesun {
+    display: none;
+	margin-top:250px;
+	margin-left:290px;
+	text-decoration:none;
+}
+
+div.sun:hover + .namesun {
+    display: inline-block;
+}
+
+
+#neptune
+{
+top:13%;
+left:14%; /* of the container */
+width:2%; /* of the container */
+height:2%; /* of the container */
+position: absolute;
+background-color:#49a5bf;
+border-radius: 50%;
+box-shadow:2px 2px 10px #49a5bf;
+
+}
+.nameneptune {
+    display: none;
+	margin-top:10px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle1:hover + .nameneptune {
+    display: inline-block;
+}
+
+#uranus
+{
+top:13%;
+left:14%; /* of the container */
+width:2%; /* of the container */
+height:2%; /* of the container */
+position: absolute;
+background-color:#e0eff9;
+border-radius: 50%;
+box-shadow:2px 2px 10px #e0eff9;
+
+}
+
+.nameuranus {
+    display: none;
+	margin-top:40px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle2:hover + .nameuranus {
+    display: inline-block;
+}
+
+/* for saturn*/
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin: 50px;
+ 
+ }
+ 
+.namesaturn {
+    display: none;
+	margin-top:70px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle3:hover + .namesaturn {
+    display: inline-block;
+}
+
+#jupiter
+{
+top:10%;
+left:14%; /* of the container */
+width:6%; /* of the container */
+height:6%; /* of the container */
+position: absolute;
+background-color:#e9d4b3;
+border-radius: 50%;
+box-shadow:2px 2px 10px #e9d4b3;
+}
+
+.namejupiter {
+    display: none;
+	margin-top:100px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle4:hover + .namejupiter {
+    display: inline-block;
+}
+
+
+#mars
+{
+top:10%;
+left:14%; /* of the container */
+width:6%; /* of the container */
+height:6%; /* of the container */
+position: absolute;
+background-color:#e73827;
+border-radius: 50%;
+box-shadow:2px 2px 10px #e73827;
+
+}
+
+.namemars {
+    display: none;
+	margin-top:130px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle5:hover + .namemars {
+    display: inline-block;
+}
+
+#earth
+{
+top:10%;
+left:14%; /* of the container */
+width:5%; /* of the container */
+height:5%; /* of the container */
+position: absolute;
+background-color:#21b4e2;
+border-radius: 50%;
+box-shadow:2px 2px 10px #21b4e2;
+}
+.nameearth {
+    display: none;
+	margin-top:160px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle6:hover + .nameearth {
+    display: inline-block;
+}
+
+
+#venus
+{
+top:10%;
+left:14%; /* of the container */
+width:6%; /* of the container */
+height:6%; /* of the container */
+position: absolute;
+background-color:#f8b500;
+border-radius: 50%;
+box-shadow:2px 2px 10px #f8b500;
+}
+
+.namevenus {
+    display: none;
+	margin-top:190px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle7:hover + .namevenus {
+    display: inline-block;
+}
+.mercury
+{
+top:10%;
+left:14%; /* of the container */
+width:6%; /* of the container */
+height:6%; /* of the container */
+position: absolute;
+background-color:#d5d2d1;
+border-radius: 50%;
+box-shadow:2px 2px 10px #d5d2d1;
+
+}
+
+.namemercury {
+    display: none;
+	margin-top:220px;
+	margin-left:280px;
+	text-decoration:none;
+}
+
+div #circle8:hover + .namemercury {
+    display: inline-block;
+	position:absolute;
+}
+
+@-webkit-keyframes spin-right
+{
+100%{
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+}
+
+@keyframes spin-right
+{
+100%{
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+}
+
